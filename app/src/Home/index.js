@@ -17,11 +17,11 @@ class Home extends Component {
         <Container fluid className="p-0">
           <Menu />
           <Header />
-          <Banner />
+          <Banner data={{text: 'EL RETO', backgroundColor: '#009ADE'}} />
           <Description />
-          <Banner />
+          <Banner data={{text: 'PARTICIPA', backgroundColor: '#F96E36'}} />
           <Invitation />
-          <Banner />
+          <Banner data={{text: 'PREGUNTAS FRECUENTES', backgroundColor: '#344154'}} />
           <Faq />
           <Menu />
         </Container>

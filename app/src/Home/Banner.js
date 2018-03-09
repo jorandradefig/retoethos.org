@@ -7,14 +7,21 @@ import {
 } from 'reactstrap'
 
 class Banner extends Component {
+  constructor(props) {
+    super(props)
+  }
+
   render() {
+
+    const text = this.props.data.text
+    const backgroundColor = this.props.data.backgroundColor
+
     return (
-      <div className="Banner">
-        <Container className="py-5">
+      <div className="Banner d-flex justify-content-center align-items-center" style={{backgroundColor: backgroundColor}}>
+        <Container fluid>
           <Row>
-            <Col xs="12" lg="12" className="mx-auto">
-                
-                <h1> &lt; Preguntas Frecuentes &gt; </h1>
+            <Col xs="12" lg="12" className="mx-auto">               
+                <h1> &lt; {text} &gt; </h1>
             </Col>
           </Row>
         </Container>
