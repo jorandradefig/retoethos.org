@@ -33,7 +33,7 @@ class Menu extends Component {
   render() {
     return (
       <div className="Menu">
-        <Navbar className="navcolor" light expand="md">
+        <Navbar color="faded" light expand="md">
           <NavbarBrand href="/">EL RETO</NavbarBrand>
           <NavbarBrand href="/">¡PARTICIPA!</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
