@@ -7,6 +7,7 @@ import Menu from './Menu.js'
 import Header from './Header.js'
 import Banner from './Banner.js'
 import Description from './Description.js'
+import Invitation from './Invitation.js'
 import Faq from './Faq.js'
 
 class Home extends Component {
@@ -18,6 +19,8 @@ class Home extends Component {
           <Header />
           <Banner />
           <Description />
+          <Banner />
+          <Invitation />
           <Banner />
           <Faq />
           <Menu />
