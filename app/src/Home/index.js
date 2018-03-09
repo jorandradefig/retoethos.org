@@ -5,6 +5,9 @@ import {
 } from 'reactstrap'
 import Menu from './Menu.js'
 import Header from './Header.js'
+import Banner from './Banner.js'
+import Description from './Description.js'
+import Faq from './Faq.js'
 
 class Home extends Component {
   render() {
@@ -13,6 +16,11 @@ class Home extends Component {
         <Container fluid className="p-0">
           <Menu />
           <Header />
+          <Banner />
+          <Description />
+          <Banner />
+          <Faq />
+          <Menu />
         </Container>
       </div>
     )
