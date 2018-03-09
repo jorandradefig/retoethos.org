@@ -12,8 +12,8 @@ class Description extends Component {
       <div className="Description">
         <Container className="py-5">
           <Row>
-            <Col xs="12" lg="12">
-              <p>
+            <Col xs="col-md-6 offset-md-3" lg="col-md-6 offset-md-3">
+              <p >
                 Si eres un/a estudiante, desarrollador, investigador, diseñador, empresa, consultoría, equipo, o persona de la sociedad civil que considere tener una solución viable....
               </p>
             </Col>
