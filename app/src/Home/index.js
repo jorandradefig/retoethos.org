@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import styles from './style.css';
+import './Home.css'
 import {
   Container,
   Collapse,
