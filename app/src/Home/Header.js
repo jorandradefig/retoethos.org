@@ -12,7 +12,7 @@ class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <Container>
+        <Container className="py-5">
           <Row>
             <Col xs="12" lg="6">
               <img className="img-fluid" src={recurso1} />
