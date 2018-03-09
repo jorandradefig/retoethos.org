@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import styles from './style.css';
 import {
   Container,
   Collapse,
@@ -36,30 +37,20 @@ class Home extends Component {
       <div className="Home">
         <Container fluid>
           <Navbar color="faded" light expand="md">
-          <NavbarBrand href="/">Ethos</NavbarBrand>
+          <NavbarBrand href="/">EL RETO</NavbarBrand>
+          <NavbarBrand href="/">¡PARTICIPA!</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="">Hackatón</NavLink>
+              <NavLink href="">BASES</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-              Options
-              </DropdownToggle>
-              <DropdownMenu >
-              <DropdownItem>
-                  Option 1
-              </DropdownItem>
-              <DropdownItem>
-                  Option 2
-              </DropdownItem>
-              <DropdownItem divider />
-              <DropdownItem>
-                  Reset
-              </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <NavItem>
+              <NavLink href="">RECURSOS</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="">FAQ</NavLink>
+            </NavItem>
             </Nav>
           </Collapse>
           </Navbar>
