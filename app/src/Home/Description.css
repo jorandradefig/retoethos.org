@@ -5,13 +5,14 @@
   Line Height: 50px;
   Align: Center;
   Fill: Solid #344154;
+  margin-top: 4%;
 }
 
 
 .buttonInvi{
   width:366px;
   height: 56px;
-  margin-top: 70%;
+  margin-top: 5%;
   background-color: #F96E36;
   border:none;
 }
@@ -26,4 +27,9 @@
 
 .ganador{
   margin-top: 2%;
+}
+
+.recurso5{
+  margin-top:1%;
+  margin-bottom:4%;
 }

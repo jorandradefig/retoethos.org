@@ -23,7 +23,7 @@ class Description extends Component {
         <Container className="d-flex justify-content-center align-items-center">
           <Row>
             <Col  xs="col-md-12 " lg="col-md-12 ">
-              <img src={recurso1} />
+              <img className="bio" src={recurso1} />
             </Col>
           </Row>
         </Container>
@@ -35,7 +35,7 @@ class Description extends Component {
                       <img  src={recurso2} />
                     </Col>
                     <Col className="d-flex justify-content-center" xs="12 " lg="12">
-                      <Button className="buttonInvi"  block>MANDA TU PROPUESTA</Button>
+                      <Button href="https://codeandomexico.typeform.com/to/l1FJ2Q" className="buttonInvi text-center"  block>MANDA TU PROPUESTA</Button>
                     </Col>
                   </Row>
             </Col>
@@ -49,12 +49,12 @@ class Description extends Component {
         <Container className="ganador">
           <Row >
             <Col className="d-flex justify-content-center align-items-center" xs="12 " lg="12">
-              <img className="ganador" src={recurso4} />
+              <img  src={recurso4} />
             </Col >
           </Row>
           <Row>
-            <Col className="d-flex justify-content-center align-items-center" xs="12 " lg="12">
-              <img src={recurso5} />
+            <Col className="recurso5 d-flex justify-content-center align-items-center" xs="12 " lg="12">
+              <img className="recurso5" src={recurso5} />
             </Col>
           </Row> 
         </Container>

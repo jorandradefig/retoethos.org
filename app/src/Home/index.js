@@ -17,9 +17,9 @@ class Home extends Component {
         <Container fluid className="p-0">
           <Menu />
           <Header />
-          <Banner data={{text: 'EL RETO', backgroundColor: '#009ADE'}} />
+          <Banner id="reto" data={{text: 'EL RETO', backgroundColor: '#009ADE'}} />
           <Herramienta />
-          <Banner data={{text: 'PARTICIPA', backgroundColor: '#F96E36'}} />
+          <Banner id="participa" data={{text: 'PARTICIPA', backgroundColor: '#F96E36'}} />
           <Description />
           <Banner data={{text: 'PREGUNTAS FRECUENTES', backgroundColor: '#344154'}} />
           <Faq />
