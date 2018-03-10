@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Herramienta.css'
+import './Tool.css'
 import {
   Container,
   Row,
@@ -13,10 +13,10 @@ import recurso3 from '../assets/herramienta.svg'
 import recurso4 from '../assets/puntos.svg'
 import recurso5 from '../assets/fecha.svg'
 
-class Herramienta extends Component {
+class Tool extends Component {
   render() {
     return (
-      <div className="Herramienta">
+      <div className="Tool">
         <Container className="d-flex justify-content-center align-items-center">
             
           <Row>
@@ -50,4 +50,4 @@ class Herramienta extends Component {
   }
 }
 
-export default Herramienta
+export default Tool

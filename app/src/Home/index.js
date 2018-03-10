@@ -8,7 +8,7 @@ import Header from './Header.js'
 import Banner from './Banner.js'
 import Description from './Description.js'
 import Faq from './Faq.js'
-import Herramienta from './Herramienta.js'
+import Tool from './Tool.js'
 
 class Home extends Component {
   render() {
@@ -18,7 +18,7 @@ class Home extends Component {
           <Menu />
           <Header />
           <Banner id="reto" data={{text: 'EL RETO', backgroundColor: '#009ADE'}} />
-          <Herramienta />
+          <Tool />
           <Banner id="participa" data={{text: 'PARTICIPA', backgroundColor: '#F96E36'}} />
           <Description />
           <Banner data={{text: 'PREGUNTAS FRECUENTES', backgroundColor: '#344154'}} />
