@@ -20,16 +20,22 @@ class Header extends Component {
             <Col xs="12" lg="6" className="d-flex justify-content-center align-items-center">
               <img className="img-fluid" src={recurso1} />
             </Col>
-            <Col xs="12" lg="6" className="d-flex flex-column justify-content-center align-items-center">
+            <Col xs="12" lg="6" className="d-flex flex-column justify-content-center align-items-center mt-5 mt-lg-0">
               <img className="mb-3 img-fluid" src={reto} />
               <img className="mt-3 img-fluid" src={hidrocarburos} />
             </Col>
           </Row>
           <Row className="d-flex justify-content-center align-items-center">
-            <Col xs="12" lg="6" className="pt-5 d-flex flex-row justify-content-between align-items-center">
-              <img className="img-fluid" src={embajada} />
-              <img className="img-fluid" src={ethos} />
-              <img className="img-fluid" src={cmx} />
+            <Col xs="12" lg="6" className="pt-5 d-flex flex-column flex-lg-row">
+              <Col xs="12" lg="4" className="d-flex justify-content-center align-items-center">
+                <img className="img-fluid" src={embajada} />
+              </Col>
+              <Col xs="12" lg="4" className="d-flex justify-content-center align-items-center mt-4 mt-lg-0">
+                <img className="img-fluid" src={ethos} />
+              </Col>
+              <Col xs="12" lg="4" className="d-flex justify-content-center align-items-center mt-4 mt-lg-0">
+                <img className="img-fluid" src={cmx} />
+              </Col>
             </Col>
           </Row>
         </Container>
