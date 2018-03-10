@@ -7,7 +7,6 @@ import {
   div
 } from 'reactstrap'
 
-
 import recurso2 from '../assets/Recurso1@3x.svg'
 import recurso3 from '../assets/herramienta.svg'
 import recurso4 from '../assets/puntos.svg'
@@ -16,15 +15,14 @@ import recurso5 from '../assets/fecha.svg'
 class Tool extends Component {
   render() {
     return (
-      <div className="Tool">
-        <Container className="d-flex justify-content-center align-items-center">
-            
+      <div className="Tool py-5">
+        <Container className="d-flex justify-content-center align-items-center px-5">
           <Row>
-            <Col className="align-self-start" xs="col-sm-12" lg="col-md-6">
-                <img className="Foco align-self-center" src={recurso2} />
+            <Col xs="12" lg="4" className="d-flex justify-content-center align-items-center px-5">
+                <img className="img-fluid" src={recurso2} />
             </Col>
-            <Col xs="col-sm-12" lg="col-md-6">
-                <img className="Herramienta_idea d-flex justify-content-center align-items-center" src={recurso3} />
+            <Col xs="12" lg="8" className="d-flex justify-content-center align-items-center mt-5 mt-lg-0">
+                <p className="text-center idea">Idear una herramienta que permita detectar posibles irregularidades y malas prácticas administrativas a partir del análisis de la información obtenida de bases de datos abiertos dentro del sector energético.</p>
             </Col>
           </Row>
         </Container>
