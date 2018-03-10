@@ -9,3 +9,7 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+.Banner h1 {
+  margin-bottom: 0px;
+}

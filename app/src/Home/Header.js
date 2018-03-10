@@ -17,7 +17,7 @@ class Header extends Component {
       <div className="Header">
         <Container className="py-5">
           <Row>
-            <Col xs="12" lg="6" className="d-flex justify-content-center align-items-center">
+            <Col xs="12" lg="6" className="d-flex justify-content-center align-items-center mb-5 mb-lg-0">
               <img className="img-fluid" src={recurso1} />
             </Col>
             <Col xs="12" lg="6" className="d-flex flex-column justify-content-center align-items-center mt-5 mt-lg-0">
@@ -26,7 +26,7 @@ class Header extends Component {
             </Col>
           </Row>
           <Row className="d-flex justify-content-center align-items-center">
-            <Col xs="12" lg="6" className="pt-5 d-flex flex-column flex-lg-row">
+            <Col xs="12" lg="6" className="pt-5 d-flex flex-column flex-lg-row mt-4 mt-lg-0">
               <Col xs="12" lg="4" className="d-flex justify-content-center align-items-center">
                 <img className="img-fluid" src={embajada} />
               </Col>
