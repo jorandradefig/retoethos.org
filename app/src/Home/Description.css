@@ -6,3 +6,24 @@
   Align: Center;
   Fill: Solid #344154;
 }
+
+
+.buttonInvi{
+  width:366px;
+  height: 56px;
+  margin-top: 70%;
+  background-color: #F96E36;
+  border:none;
+}
+
+.estudiante{
+  width:10%;
+}
+
+.teclado{
+  margin-left:-45%;
+}
+
+.ganador{
+  margin-top: 2%;
+}

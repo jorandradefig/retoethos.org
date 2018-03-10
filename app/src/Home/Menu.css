@@ -5,13 +5,19 @@
   font-weight: bold;
   line-height: normal;
   font-size: 20px;
-  
+  color: white !important;
   width: 100%;
   height: 62px;
 }
 
 .navcolor {
-  padding: 17px 100px;
-  color: #F4F3F4;
+  padding: 10px 90px;
   
+  
+}
+navbarbrand{
+  color: white;
+}
+.menu1{
+  color: white;
 }
