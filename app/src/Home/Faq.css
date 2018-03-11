@@ -1,3 +1,12 @@
-.signalP {
+.Faq p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+  font-size: 19px;
+  color: #344154;
+}
+
+.greater {
   color: #F96E36;
 }
