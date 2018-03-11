@@ -20,18 +20,18 @@ class Description extends Component {
           </Row>
           <Row className="px-0 px-lg-5">
             <Col xs="12" lg="7">
-              <a href="https://docs.google.com/document/d/1by8jK4GXsJL0lCcvc28BelhS0BtH6I0ImselfZ7A-PI/edit" target="_blank">
+              <a href="https://docs.google.com/document/d/1by8jK4GXsJL0lCcvc28BelhS0BtH6I0ImselfZ7A-PI/edit" target="_blank" rel="noopener noreferrer">
                 <p className="mb-4 download"><span className="greater">&lt;</span> DESCARGA LA CONVOCATORIA <span className="lesser">&gt;</span></p>
               </a>
-              <a href="https://drive.google.com/file/d/1_ffcGjtcoSqPmLuJGnfOJCzRoeH_1sNp/view" target="_blank">
+              <a href="https://drive.google.com/file/d/1_ffcGjtcoSqPmLuJGnfOJCzRoeH_1sNp/view" target="_blank" rel="noopener noreferrer">
                 <p className="mb-5 download"><span className="greater">&lt;</span> DESCARGA EL LISTADO DE BASES DE DATOS <span className="lesser">&gt;</span></p>
               </a>
-              <a href="https://codeandomexico.typeform.com/to/l1FJ2Q" target="_blank">
+              <a href="https://codeandomexico.typeform.com/to/l1FJ2Q" target="_blank" rel="noopener noreferrer">
                 <Button color="primary" size="lg" block>MANDA TU PROPUESTA</Button>
               </a>
             </Col>
             <Col xs="12" lg="5" className="d-flex justify-content-center align-items-center">
-              <img className="img-fluid mt-5 mt-lg-0" src={recurso3} />
+              <img className="img-fluid mt-5 mt-lg-0" src={recurso3} alt="recurso3" />
             </Col>
           </Row>
           <Row className="px-0 px-lg-5 py-5">

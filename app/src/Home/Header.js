@@ -18,23 +18,23 @@ class Header extends Component {
         <Container className="py-5 px-5">
           <Row className="px-0 px-lg-5">
             <Col xs="12" lg="6" className="d-flex justify-content-center align-items-center mb-5 mb-lg-0">
-              <img className="img-fluid" src={recurso1} />
+              <img className="img-fluid" src={recurso1} alt="recurso1" />
             </Col>
             <Col xs="12" lg="6" className="d-flex flex-column justify-content-center align-items-center mt-5 mt-lg-0">
-              <img className="mb-3 img-fluid" src={reto} />
-              <img className="mt-3 img-fluid" src={hidrocarburos} />
+              <img className="mb-3 img-fluid" src={reto} alt="reto" />
+              <img className="mt-3 img-fluid" src={hidrocarburos} alt="hidrocarburos" />
             </Col>
           </Row>
           <Row className="d-flex justify-content-center align-items-center">
             <Col xs="12" lg="7" className="pt-5 d-flex flex-column flex-lg-row mt-5 mt-lg-0">
               <Col xs="12" lg="4" className="d-flex justify-content-center align-items-center">
-                <img className="img-fluid" src={embajada} />
+                <img className="img-fluid" src={embajada} alt="embajada" />
               </Col>
               <Col xs="12" lg="4" className="d-flex justify-content-center align-items-center mt-4 mt-lg-0">
-                <img className="img-fluid" src={ethos} />
+                <img className="img-fluid" src={ethos} alt="ethos" />
               </Col>
               <Col xs="12" lg="4" className="d-flex justify-content-center align-items-center mt-4 mt-lg-0">
-                <img className="img-fluid" src={cmx} />
+                <img className="img-fluid" src={cmx} alt="cmx" />
               </Col>
             </Col>
           </Row>
