@@ -1,0 +1,23 @@
+.Header .challenge {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  font-size: 75px;
+  text-align: center;
+  color: #344154;
+}
+
+.Header .challenge .greater, .lesser {
+  color: #F96E36;
+}
+
+.Header .corruption {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 25px;
+  text-align: center;
+  color: #344154;
+}

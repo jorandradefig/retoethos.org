@@ -4,6 +4,7 @@ import {
   Row,
   Col
 } from 'reactstrap'
+import "./Header.css"
 import recurso1 from '../assets/Recurso1@10x.svg'
 import reto from '../assets/_RETO_.svg'
 import hidrocarburos from '../assets/CORRUPCION_EN_EL_SECTOR_DE_HIDROCARBUROS.svg'
@@ -21,12 +22,12 @@ class Header extends Component {
               <img className="img-fluid" src={recurso1} alt="recurso1" />
             </Col>
             <Col xs="12" lg="6" className="d-flex flex-column justify-content-center align-items-center mt-5 mt-lg-0">
-              <img className="mb-3 img-fluid" src={reto} alt="reto" />
-              <img className="mt-3 img-fluid" src={hidrocarburos} alt="hidrocarburos" />
+              <p className="mb-4 challenge"><span className="greater">&lt;</span> RETO <span className="lesser">&gt;</span></p>
+              <p className="mb-4 corruption"> CORRUPCIÓN EN EL SECTOR DE HIDROCARBUROS </p>
             </Col>
           </Row>
           <Row className="d-flex justify-content-center align-items-center">
-            <Col xs="12" lg="7" className="pt-5 d-flex flex-column flex-lg-row mt-5 mt-lg-0">
+            <Col xs="12" lg="7" className="pt-0 pt-lg-5 d-flex flex-column flex-lg-row mt-5 mt-lg-0">
               <Col xs="12" lg="4" className="d-flex justify-content-center align-items-center">
                 <img className="img-fluid" src={embajada} alt="embajada" />
               </Col>
