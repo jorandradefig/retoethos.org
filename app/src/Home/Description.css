@@ -1,35 +1,50 @@
-.Description {
-  Font Family: 'Roboto';
-  Font Style: Regular;
-  Font Size: 24px;
-  Line Height: 50px;
-  Align: Center;
-  Fill: Solid #344154;
-  margin-top: 4%;
+.Description .solution {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 25px;
+  text-align: center;
+  color: #344154;
 }
 
+.Description .greater, .lesser {
+  color: #F96E36;
+}
 
-.buttonInvi{
-  width:366px;
-  height: 56px;
-  margin-top: 5%;
+.Description .download {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
+  font-size: 20px;
+  color: #344154;
+}
+
+.Description .btn {
   background-color: #F96E36;
-  border:none;
+  border-color: #F96E36;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  border-radius: 0px;
 }
 
-.estudiante{
-  width:10%;
+.Description .title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  font-size: 35px;
+  text-align: center;
+  color: #344154;
 }
 
-.teclado{
-  margin-left:-45%;
-}
-
-.ganador{
-  margin-top: 2%;
-}
-
-.recurso5{
-  margin-top:1%;
-  margin-bottom:4%;
+.Description .text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 20px;
+  text-align: center;
+  color: #344154;
 }
