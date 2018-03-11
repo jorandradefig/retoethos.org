@@ -11,7 +11,7 @@ import recurso3 from '../assets/Recurso2@3x.svg'
 class Description extends Component {
   render() {
     return (
-      <div className="Description">
+      <div id="participa" className="Description">
         <Container className="px-5 py-5">
           <Row className="px-0 px-lg-5 py-5">
             <Col xs="12">

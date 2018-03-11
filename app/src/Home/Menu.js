@@ -13,6 +13,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from 'reactstrap'
+import { Link } from 'react-scroll'
 
 class Menu extends Component {
   constructor(props) {
@@ -35,7 +36,11 @@ class Menu extends Component {
       <div className="Menu">
         <Navbar className="navbar px-3 px-lg-5" light expand="md">
           <NavbarBrand className="text" href="#reto">EL RETO</NavbarBrand>
-          <NavbarBrand className="ml-0 ml-lg-5 text" href="#participa">¡PARTICIPA!</NavbarBrand>
+          <NavbarBrand className="ml-0 ml-lg-5 text" href="#participa">
+            <Link to="participa" spy={true} smooth={true} duration={500}>
+              ¡PARTICIPA!
+            </Link>
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -56,7 +61,11 @@ class Menu extends Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
             <NavItem>
-              <NavLink>FAQ</NavLink>
+              <NavLink>
+                <Link to="faq" spy={true} smooth={true} duration={500}>
+                  FAQ
+                </Link>
+              </NavLink>
             </NavItem>
             </Nav> 
           </Collapse>

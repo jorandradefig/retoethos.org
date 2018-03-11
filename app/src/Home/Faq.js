@@ -9,7 +9,7 @@ import {
 class Faq extends Component {
   render() {
     return (
-      <div className="Faq">
+      <div id="faq" className="Faq">
         <Container className="py-5">
           <Row>
             <Col xs="12" lg="12">
