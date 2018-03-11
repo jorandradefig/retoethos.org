@@ -33,20 +33,20 @@ class Menu extends Component {
   render() {
     return (
       <div className="Menu">
-        <Navbar className="navcolor" light expand="md">
-          <NavbarBrand href="#reto">EL RETO</NavbarBrand>
-          <NavbarBrand href="#participa">¡PARTICIPA!</NavbarBrand>
+        <Navbar className="navbar px-3 px-lg-5" light expand="md">
+          <NavbarBrand className="text" href="#reto">EL RETO</NavbarBrand>
+          <NavbarBrand className="ml-0 ml-lg-5 text" href="#participa">¡PARTICIPA!</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="https://docs.google.com/document/d/1by8jK4GXsJL0lCcvc28BelhS0BtH6I0ImselfZ7A-PI/edit" target="_blank">BASES</NavLink>
+              <NavLink className="mr-0 mr-lg-5" href="https://docs.google.com/document/d/1by8jK4GXsJL0lCcvc28BelhS0BtH6I0ImselfZ7A-PI/edit" target="_blank">BASES</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
+                <DropdownToggle className="mr-0 mr-lg-5" nav caret>
                   RECURSOS
                 </DropdownToggle>
-                <DropdownMenu >
+                <DropdownMenu>
                   <DropdownItem href="https://drive.google.com/open?id=1evJgsY8axXOpWujbDPgm2n5TZhMTc2ae" target="_blank">
                     DATASETS
                   </DropdownItem>
@@ -56,7 +56,7 @@ class Menu extends Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
             <NavItem>
-              <NavLink href="">FAQ</NavLink>
+              <NavLink>FAQ</NavLink>
             </NavItem>
             </Nav> 
           </Collapse>

@@ -1,23 +1,18 @@
-.Menu {
+.Menu .navbar {
   background-color: #344154;
   font-family: 'Roboto Mono';
   font-style: normal;
   font-weight: bold;
   line-height: normal;
   font-size: 20px;
-  color: white !important;
   width: 100%;
   height: 50px;
 }
 
-.navcolor {
-  /*padding: 10px 90px;*/
-  
-  
-}
-navbarbrand{
+.Menu .text {
   color: white;
 }
-.menu1{
+
+.Menu .nav-item .nav-link {
   color: white;
 }
