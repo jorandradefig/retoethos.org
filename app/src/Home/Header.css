@@ -9,9 +9,15 @@
   font-style: normal;
   font-weight: 600;
   line-height: 80px;
-  font-size: 75px;
+  font-size: 55px;
   text-align: center;
   color: #344154;
+}
+
+@media screen and (min-width: 960px) {
+  .Header .challenge {
+    font-size: 75px;
+  }
 }
 
 .Header .challenge .greater, .lesser {
