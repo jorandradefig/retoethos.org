@@ -38,7 +38,7 @@ class Footer extends Component {
     return (
       <div className="Footer">
         <Navbar className="navbar px-3 px-lg-5" light expand="md">
-          <NavbarToggler className="d-none d-lg-flex" onClick={this.toggle} />
+          <NavbarToggler className="d-none" onClick={this.toggle} />
           <Collapse className="d-none d-lg-flex" isOpen={this.state.isOpen} navbar>
             <Nav className="" navbar>
               <NavItem>
