@@ -1,0 +1,22 @@
+.Footer {
+  height: 15vh;
+}
+
+.Footer .navbar {
+  background-color: #344154;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.Footer .text {
+  color: white;
+}
+
+.Footer .nav-item .nav-link {
+  color: white;
+}

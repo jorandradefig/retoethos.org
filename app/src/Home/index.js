@@ -9,6 +9,7 @@ import Banner from './Banner.js'
 import Description from './Description.js'
 import Faq from './Faq.js'
 import Tool from './Tool.js'
+import Footer from './Footer.js'
 
 class Home extends Component {
   render() {
@@ -23,7 +24,7 @@ class Home extends Component {
           <Description />
           <Banner data={{text: 'PREGUNTAS FRECUENTES', backgroundColor: '#344154'}} />
           <Faq />
-          <Menu />
+          <Footer />
         </Container>
       </div>
     )
