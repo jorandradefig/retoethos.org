@@ -35,19 +35,13 @@ class Footer extends Component {
     return (
       <div className="Footer">
         <Navbar className="navbar px-3 px-lg-5" light expand="md">
-          <NavbarBrand className="text" href="#reto">EL RETO</NavbarBrand>
-          <NavbarBrand className="ml-0 ml-lg-5 text" href="#participa">
-            <Link to="participa" spy={true} smooth={true} duration={500}>
-              ¡PARTICIPA!
-            </Link>
-          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="" navbar>
             <NavItem>
               <NavLink className="mr-0 mr-lg-5" href="https://docs.google.com/document/d/1by8jK4GXsJL0lCcvc28BelhS0BtH6I0ImselfZ7A-PI/edit" target="_blank">BASES</NavLink>
             </NavItem>
-            <UncontrolledDropdown nav inNavbar>
+            <UncontrolledDropdown nav inNavbar direction="up">
                 <DropdownToggle className="mr-0 mr-lg-5" nav caret>
                   RECURSOS
                 </DropdownToggle>
