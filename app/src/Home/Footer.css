@@ -16,3 +16,7 @@
 .Footer .nav-item .nav-link {
   color: white;
 }
+
+.Footer .nav-item .fa-facebook path, .fa-twitter path {
+  fill: white;
+}
