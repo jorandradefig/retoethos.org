@@ -13,8 +13,10 @@
   color: white;
 }
 
-.Footer .nav-item .nav-link {
-  color: white;
+@media screen and (min-width: 960px) {
+  .Footer .nav-item .nav-link {
+    color: white;
+  }
 }
 
 .Footer .nav-item .fa-facebook path, .fa-twitter path {

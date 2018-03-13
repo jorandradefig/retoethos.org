@@ -17,6 +17,8 @@
   color: white;
 }
 
-.Menu .nav-item .nav-link {
-  color: white;
+@media screen and (min-width: 960px) {
+  .Menu .nav-item .nav-link {
+    color: white;
+  }
 }
