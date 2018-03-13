@@ -1,3 +1,7 @@
+.Header, .container {
+  height: 85vh;
+}
+
 .Header .challenge {
   font-family: 'Roboto', sans-serif;
   font-style: normal;

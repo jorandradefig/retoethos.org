@@ -1,3 +1,7 @@
+.Menu {
+  height: 15vh;
+}
+
 .Menu .navbar {
   background-color: #344154;
   font-family: 'Roboto Mono';
