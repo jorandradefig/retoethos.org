@@ -1,5 +1,7 @@
-.Header, .container {
-  height: 85vh;
+@media screen and (min-width: 960px) {
+  .Header {
+    height: 85vh;
+  }
 }
 
 .Header .challenge {
