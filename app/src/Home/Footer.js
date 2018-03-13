@@ -38,8 +38,8 @@ class Footer extends Component {
     return (
       <div className="Footer">
         <Navbar className="navbar px-3 px-lg-5" light expand="md">
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+          <NavbarToggler className="d-none d-lg-flex" onClick={this.toggle} />
+          <Collapse className="d-none d-lg-flex" isOpen={this.state.isOpen} navbar>
             <Nav className="" navbar>
               <NavItem>
                 <NavLink className="mr-0 mr-lg-5" href="https://docs.google.com/document/d/1by8jK4GXsJL0lCcvc28BelhS0BtH6I0ImselfZ7A-PI/edit" target="_blank">BASES</NavLink>
@@ -65,15 +65,19 @@ class Footer extends Component {
                 </NavLink>
               </NavItem>
             </Nav>
-            <Nav className="ml-auto" navbar>
+          </Collapse>
+          <Nav className="ml-auto d-flex flex-row" navbar>
+            <a href="https://www.facebook.com/ethoslaboratorio" target="_blank">
               <NavItem className="mr-4">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
               </NavItem>
+            </a>
+            <a href="https://twitter.com/ethoslabmx" target="_blank">
               <NavItem className="mr-4">
                 <FontAwesomeIcon icon={faTwitter} size="2x" />
               </NavItem>
-            </Nav>
-          </Collapse>
+            </a>
+          </Nav>
         </Navbar>
       </div>
     )
